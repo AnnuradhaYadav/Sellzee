@@ -313,7 +313,7 @@
 }
 .navigation ul li{
     width: 100%;
-    display: block;
+    display: block !important;
 }
 .navigation .drop-menu {
     left: 0 !important;
