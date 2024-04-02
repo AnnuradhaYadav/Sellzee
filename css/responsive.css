@@ -295,6 +295,10 @@
     flex-direction: column!important;
     align-items: start !important;
 }
+.navigation>ul>li>i {
+    top: 2px;
+    right: 10px;
+}
 .navigation>ul>li>a:hover,
 .navigation>ul>li.active>a,
 .navigation>ul>li>a:hover::after,
@@ -309,6 +313,7 @@
 }
 .navigation ul li{
     width: 100%;
+    display: block;
 }
 .navigation .drop-menu {
     left: 0 !important;
