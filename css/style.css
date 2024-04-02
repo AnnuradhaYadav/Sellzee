@@ -50,6 +50,7 @@
     width: 0;
     height: 2px;
     background-color: #FFF;
+    transition: all ease 0.9s !important;
 }
 .navigation > ul > li > a:hover,
 .navigation > ul > li.active > a,
@@ -57,7 +58,6 @@
 .navigation > ul > li.active > a::after {
     color: #FFF !important;
     opacity: 1 !important;
-    transition: all ease 0.9s !important;
     width: 100%;
 }
 .navigation .drop-menu {
