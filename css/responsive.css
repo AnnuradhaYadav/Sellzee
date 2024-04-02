@@ -307,6 +307,9 @@
 .header.open-bar .toggle-bar .fa-bars::before{
         content: "\f00d";
 }
+.navigation ul li{
+    width: 100%;
+}
 .navigation .drop-menu {
     left: 0 !important;
     top: 0 !important;
