@@ -312,15 +312,15 @@
 }
 .navigation .drop-menu {
     left: 0 !important;
-    top: 0 !important;
+    top: 10px !important;
     position: static !important;
     width: 100% !important;
     display: none;
 }
 .navigation .drop-menu.open-drop-menu{
     display: block;
-    visibility: visible;
-    opacity: 1;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 .navigation ul li:hover .drop-menu {
     visibility: hidden;
