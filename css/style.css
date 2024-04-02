@@ -336,6 +336,7 @@ h6{
         padding: 12px 34px;
         color: #FFF;
         padding: 12px 34px;
+        display: inline-block;
 }
 /* .month-1 a.current,.month-1 a:hover{
         background: #FF5A05;
