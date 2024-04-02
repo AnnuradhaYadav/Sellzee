@@ -319,6 +319,12 @@
 }
 .navigation .drop-menu.open-drop-menu{
     display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.navigation ul li:hover .drop-menu {
+    visibility: hidden;
+    opacity: 0;
 }
 
 .banner-img {
