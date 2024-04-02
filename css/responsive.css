@@ -315,6 +315,10 @@
     top: 0 !important;
     position: static !important;
     width: 100% !important;
+    display: none;
+}
+.navigation .drop-menu.open-drop-menu{
+    display: block;
 }
 
 .banner-img {
